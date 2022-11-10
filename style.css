@@ -13,15 +13,10 @@ h1{
     color:#333;
     font-size: 8em;
 
-}
-
-h1 span{
     display: table-cell;
     animation: animate 16s linear infinite;
 }
-.gap{
- margin-left: 4px;
-}
+
 @keyframes animate{
     0%{
         color: red;
